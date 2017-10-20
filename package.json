@@ -1,0 +1,33 @@
+{
+  "name": "humanlines",
+  "version": "0.0.1",
+  "description": "Draw human-like lines on an HTML5 canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanMarcus/humanLines.git"
+  },
+  "keywords": [
+    "human",
+    "lines",
+    "canvas"
+  ],
+  "author": "Ryan Marcus <ryan@ryanmarc.us>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/RyanMarcus/humanLines/issues"
+  },
+  "homepage": "https://github.com/RyanMarcus/humanLines#readme",
+  "dependencies": {
+    "detect-node": "^2.0.3",
+    "glur": "^1.1.2",
+    "seedrandom": "^2.4.3"
+  },
+  "devDependencies": {
+    "canvas": "^1.6.7",
+    "mocha": "^4.0.1"
+  }
+}
