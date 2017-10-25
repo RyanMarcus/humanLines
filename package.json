@@ -1,6 +1,6 @@
 {
   "name": "humanlines",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Draw human-like lines on an HTML5 canvas",
   "main": "index.js",
   "scripts": {

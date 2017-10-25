@@ -20,7 +20,6 @@
 const blur = require('glur');
 const seedrandom = require("seedrandom");
 
-const grng = seedrandom("42");
 
 module.exports.generatePencilTexture = generatePencilTexture;
 function generatePencilTexture() {
@@ -84,7 +83,7 @@ function getSquiggle(prev, next, seed=seed) {
     // displace by a random value between -5 and 5
     // the paper calls to do this w.r.t. the normal of the line
     // but we'll just do it on the circle.
-    let rng = grng;
+    let rng = Math.random;
     if (seed) {
         rng = seedrandom(seed);
     }
