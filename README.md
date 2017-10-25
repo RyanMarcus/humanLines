@@ -1,6 +1,6 @@
 # humanlines
 
-A NPM package to draw lines that look like they were created by a human. Because who wants boring straight lines anyway?
+A NPM package to draw lines that look like they were created by a human. Because who wants boring straight lines anyway? See [this blog post](https://rmarcus.info/blog/2017/10/23/humanlines.html) for more information.
 
 ![Cube and hand-drawn cube](https://raw.githubusercontent.com/RyanMarcus/humanLines/master/cube.png)
 
